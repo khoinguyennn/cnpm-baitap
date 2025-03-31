@@ -1,0 +1,93 @@
+/* Reset một số thuộc tính mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Màu nền nhẹ nhàng */
+    color: #333; /* Màu chữ tối */
+    line-height: 1.6; /* Khoảng cách giữa các dòng */
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient màu */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px; /* Bo góc */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+}
+
+/* Main */
+main {
+    margin: 20px 0;
+    text-align: center;
+}
+
+button {
+    background-color: #28a745; /* Màu xanh lá */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px; /* Bo góc */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu */
+}
+
+button:hover {
+    background-color: #218838; /* Màu xanh lá đậm khi hover */
+}
+
+/* Section */
+section {
+    background: #ffffff; /* Màu nền trắng */
+    padding: 20px;
+    border-radius: 8px; /* Bo góc */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+    margin-top: 20px;
+}
+
+h2 {
+    color: #6a11cb; /* Màu tiêu đề */
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #333; /* Màu tiêu đề phụ */
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none; /* Bỏ dấu chấm */
+    padding-left: 0; /* Bỏ lề trái */
+}
+
+li {
+    background: #f8f9fa; /* Màu nền cho từng mục */
+    margin: 5px 0; /* Khoảng cách giữa các mục */
+    padding: 10px;
+    border-radius: 5px; /* Bo góc */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu */
+}
+
+li:hover {
+    background: #e2e6ea; /* Màu nền khi hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    button {
+        width: 100%; /* Nút chiếm toàn bộ chiều rộng */
+    }
+
+    section {
+        padding: 15px; /* Giảm padding trên thiết bị nhỏ */
+    }
+}
